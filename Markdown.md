@@ -29,3 +29,8 @@ Git no ~~vive~~ en vano
 1. Lunes
 2. Martes
 3. Miercoles
+
+```
+este texto  
+es un snippet
+```
