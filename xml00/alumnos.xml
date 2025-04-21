@@ -1,0 +1,11 @@
+<!DOCTYPE alumnos SYSTEM "alumnos.dtd">
+<alumnos>
+    <alumno>
+        <nombre>Eren Jaeger</nombre>
+        <nacimiento>1835-03-30</nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Mikasa Ackerman</nombre>
+        <nacimiento>1837-02-10</nacimiento>
+    </alumno>
+</alumnos>
