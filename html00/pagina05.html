@@ -34,10 +34,17 @@
                     return componente
             }
 
-            const Picture = ()=>();
+            const Picture = (id) => {
+                return `
+                <figure>
+                <img src="https://picsum.photos/id/${id}/200/300" alt="x">
+                <figcaption>Jonh</figcaption>
+                </figure>
+                `
+            }
 
             // ejemplo.innerHTML="Hola" + imagen(1) + imagen(2)
-            ejemplo.innerHTML="Hola"+ Picture(1)
+            ejemplo.innerHTML="Hola"+ Picture()
         </script>
     </body>
 </html>
