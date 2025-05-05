@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    max-width: 500px;
+    box-shadow: 15px 20px 20px black;
+    border-radius: 5px;
+    border: 3px solid rgb(40, 99, 199);
+    padding: 20px;
+    margin: 0px auto;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+fieldset{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+input[type = "text"],input[type = "password"]{
+    border-radius: 5px;
+    margin-bottom: 6px;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(225, 226, 255);
+    border: none;
+    cursor: pointer;
+}
+input[type = "button"]{
+    background-color: rgb(18, 43, 112);
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type = "button"]:hover{
+    background-color: rgb(18, 112, 79);
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
